@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELiTE SHOP</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+  <style>
+    /* header section */
+    .topright li{
+            margin: 0px 15px; 
+        }
+       .topnav{
+        padding-left: 20px;
+       }
+        .dropdown-menu{
+            min-width: 0;
+            background-color: black;
+            padding: 0px 10px;
+        }
+        .dropdown-item {
+            color:rgb(216, 211, 211);
+            padding: 10px;
+        }
+        .dropdown-item:hover{
+          color: white;
+          background-color: transparent;
+        }
+        .navbar{
+          position: relative !important; 
+        }
+        .main{
+          width: 1050%;
+          position: absolute;
+          top: 55px !important;
+          left: -760px !important;
+          overflow: hidden;
+        
+        }
+        .pri{
+          position: relative;
+        }
+        .pri button{
+          border-radius: 50px;
+          background-color: rgb(207, 205, 205);
+        }
+        .pri1{
+          position: absolute;
+          top: 50px !important;
+          left: -1303px !important;
+        }
+        .pri3{
+          width: 630%;
+          background-color: black;
+        }
+        .pri3 input{
+          width: 100%;
+          background-color: black;
+        }
+        .drop1{
+          background-color: rgb(207, 205, 205);
+          box-shadow: none !important;
+          width: 100px;
+        }
+        .drop1{
+          position: relative;
+        }
+        .drop1 .dropdown-menu{
+            min-width: 0;
+            background-color: white;
+            position: absolute;
+            top: 45px !important;
+            left: -300px !important;
+            padding: 30px;
+        }
+        .drop1 .dropdown-item {
+          color: black;
+        }
+        .float-right{
+          float: right !important;
+        }
+        .drop1 .text-center1 a{
+          padding: 15px 30px;
+          font-size: 12px;
+          border: none;
+        }
+        .drop1 .text-center1 a:hover{
+          background-color: rgb(214, 11, 11);
+        }
+        .header1{
+            background-color: #f2f3f5;
+        }
+        .header1 nav{
+            margin-left: 80px;
+        }
+        .header1 ol li a{
+            text-decoration: none;
+            color: #343a40;
+        }
+       /* header end */
+
+       /* section 1 */
+       .section1 .row{
+        margin: 0px 100px;
+       }
+       .section1 .rightbox ul li i{
+        font-size: 40px;
+        margin-right: 10px;
+        color: #3f434e;
+       }
+       .section1 h2,h5{
+        color: #3f434e;
+       }
+        .section1 p{
+          color: #898a8f;
+        }
+        
+        .section1 .row h2{
+          margin-left: 100px;
+          margin-top: 80px;
+        }
+        /* section1 end */
+
+         /* footer section */
+         .icons i{
+          background-color: black;
+          color: white;
+        }
+        footer{
+            background-color: #f8f9fa;
+            margin-top: 50px;
+
+        }
+        footer .row{
+          margin: 0px 100px;
+        }
+        footer .row .foot1 .icons i:hover{
+          background-color: red;
+          color: white;
+        }
+        /* footer end */
+
+
+
+
+       @media screen and (min-width:0px) and (max-width:425px) {
+        
+          .main{
+            width: 80%;
+          }
+          .pri1{
+          position: absolute;
+          top: 50px !important;
+          left: 5px !important;
+          z-index: 1;
+        }
+        .pri3{
+          width: 100% !important;
+          background-color: black;
+        }
+        .pri{
+          position: relative;
+        }
+        .drop1{
+          position: relative;
+        }
+        .drop1 .dropdown-menu{
+            min-width: 0;
+            background-color: white;
+            position: absolute;
+            top: 45px !important;
+            left: -64px !important;
+            padding: 0px;
+        }
+        .float-right{
+          float: none !important;
+        }
+        /* .drop1 .text-center1 a{
+          padding: 15px 30px;
+          
+        } */
+        .drop1 .dropdown-item{
+          padding: 0px;
+        }
+        .section1 .rightbox ul li i{
+          margin-right: 0px;
+        }
+        .section1 .rightbox ul{
+          padding-left: 0px;
+        }
+
+         
+          .section1 .row{
+            margin: 0px 0px;
+          }
+          .section1 .row h2{
+            margin-left: 0px;
+          }
+          .rightbox{
+            margin-top: 50px;
+          }
+          footer .row{
+            margin: 0px 0px;
+          }
+        }
+
+        
+       @media screen and (min-width:425px) and (max-width:768px) {
+          .main{
+            width: 80%;
+          }
+         .pri1{
+          position: absolute;
+          top: 50px !important;
+          left: 5px !important;
+          z-index: 1;
+        }
+        .pri3{
+          width: 100% !important;
+          background-color: black;
+        }
+        .pri{
+          position: relative;
+        }
+        .drop1{
+          position: relative;
+        }
+        .drop1 .dropdown-menu{
+            min-width: 0;
+            background-color: white;
+            position: absolute;
+            top: 45px !important;
+            left: -40px !important;
+            padding: 20px;
+        }
+        .float-right{
+          float: none !important;
+        }
+        .drop1 .text-center1 a{
+          padding: 15px 30px;
+          
+        }
+        .drop1 .dropdown-item{
+          padding: 0px;
+        }
+          .section1 .row{
+            margin: 0px 0px;
+          }
+          .section1 .row h2{
+            margin-left: 0px;
+          }
+          .rightbox{
+            margin-top: 50px;
+          }
+          footer .row{
+            margin: 0px 0px;
+          }
+        }
+  </style>
+</head>
+<body>
+     <!-- header -->
+     <header>
+      <div class="topnav d-flex justify-content-between align-items-center bg-dark text-light "> 
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 w-100">
+         <div class="col">
+          <div class="topleft" style="margin-top: 6px;">
+            <p>Free shipping • Free 30 days return • Express delivery</p>
+        </div>
+         </div>
+         <div class="col">
+          <div class="topright d-flex px-3 justify-content-end" style="list-style-type: none; margin: 8px 0px;">
+            <img src="../img/flag.jpg" alt="" class="px-3" style="border-right: 1px solid grey">
+            <li style="border-right: 1px solid grey; padding:0px 15px;">MyAccounts</li>
+            <li class="nav-item dropdown"><a class=" dropdown-toggle text-decoration-none text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                USD
+                </a>
+                <ul class="dropdown-menu menu1" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">USD</a></li>
+                    <li><a class="dropdown-item" href="#">JPN</a></li>
+                    <li><a class="dropdown-item" href="#">BAN</a></li>
+                </ul>
+            </li>                
+        </div>
+    
+         </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid" style="margin:0px 50px;">
+              <img src="../img/logo.png"  alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                <li class="nav-item px-2">
+                  <a class="nav-link text-dark" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item  dropdown px-2">
+                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Shop</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Shop List</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="product.html">Product Single</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Cart</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Shipping Method</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Payment Method</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Review</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Confirmation</a></li>
+                    <li><a class="dropdown-item" href="#">Track Order</a></li>                        
+                  </ul>
+                </li>
+                <li class="nav-item dropdown px-2">
+                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-      expanded="false">
+                    PAGES
+                  </a>
+                  <ul class="dropdown-menu menu-2 W-100" aria-labelledby="navbarDropdown">
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="Contactus.html">Contact Us</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Login</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Cart</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Signup</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Payment Method</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Forget Password</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Dashboard</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">404 Page</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                    <li class="border-bottom border-secondary"><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Single</a></li>                        
+                  </ul>
+                </li>                 
+                <li class="nav-item dropdown px-2 main-menu">
+                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-      expanded="false">
+                    MEGA MENU
+                  </a>
+                  <ul class="dropdown-menu main menu-2" aria-labelledby="navbarDropdown">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-5">
+                      <div class="col">
+                        <div class="card bg-transparent text-light" style="width: 18rem;">
+                          <div class="card-header">
+                            Men
+                          </div>
+                          <ul class="list-group list-group-flush py-3">
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Jackets & Coats</li>
+                            <li class="list-group-item  dropdown-item bg-transparent border-bottom border-secondary">Jeans</li>
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Top & T-shirts</li>
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Dresses</li>
+                            <li class="list-group-item dropdown-item bg-transparent">Mens shirts</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card card1 bg-transparent text-light" style="width: 18rem;">
+                          <div class="card-header">
+                            Women
+                          </div>
+                          <ul class="list-group list-group-flush py-3">
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Blouses & Shirts</li>
+                            <li class="list-group-item  dropdown-item bg-transparent border-bottom border-secondary">Dresses</li>
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Top & T-shirts</li>
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Jeans & Trousers</li>
+                            <li class="list-group-item dropdown-item bg-transparent">Jackets & Coats</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card card2 bg-transparent text-light" style="width: 18rem;">
+                          <div class="card-header">
+                            Shoes & Bags
+                          </div>
+                          <ul class="list-group list-group-flush py-3">
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Backpacks</li>
+                            <li class="list-group-item  dropdown-item bg-transparent border-bottom border-secondary">Bum Bags</li>
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Accross Bags</li>
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Shoes</li>
+                            <li class="list-group-item dropdown-item bg-transparent">Heeled Shoes</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card card2 bg-transparent text-light" style="width: 18rem;">
+                          <div class="card-header">
+                            Shoes & Bags
+                          </div>
+                          <ul class="list-group list-group-flush py-3">
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Backpacks</li>
+                            <li class="list-group-item  dropdown-item bg-transparent border-bottom border-secondary">Bum Bags</li>
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Accross Bags</li>
+                            <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Shoes</li>
+                            <li class="list-group-item dropdown-item bg-transparent">Heeled Shoes</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <img src="../img/mega-megu.jpg" class="img-fluid pt-5" alt="">
+                      </div>
+                      
+                    </div>
+                  </ul>
+                </li>                   
+                <li class="nav-item px-2">
+                  <a class="nav-link text-dark" aria-current="page" href="Contactus.html">CONTACT US</a>
+                </li>
+              </ul>              
+              <div class="pri">
+                <button class="btn me-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                <div class="collapse pri1" id="collapseExample">
+                  <div class="card card-body pri3">
+                    <input type="email" class="form-control border-0" id="exampleFormControlInput1" placeholder="Enter Keywords...">
+                  </div>
+                </div>
+              </div>
+
+              <div class="dropdown drop1">
+                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-shopping-bag" aria-hidden="true"></i> CART 3
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <a href="dropdown-menu" class="btn-close position-absolute top-0 end-0 bg-danger me-2 mt-2 p-1" data-bs-dismiss="alert" style="font-size: 10px; "></a>
+                  <li><h5>Your Cart</h5></li>
+                  <li id="firstitem"><a class="dropdown-item" href="#">
+                    <div class="card mb-3 border-0 border-bottom pb-4 position-relative" style="width: 20rem;">
+                      <div class="row g-0">
+                        <div class="col-md-3">
+                          <img src="../img/product-1 (1).jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body py-0">
+                            <p class="card-text"><small>Eleven Paris Skinny Jeans</small></p>
+                            <p class="card-text">1 X $79.00</p>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#firstitem" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="alert" style="font-size: 10px; "></a>
+                    </div>
+                  </a></li>
+                  <li id="seconditem"><a class="dropdown-item" href="#">
+                    <div class="card mb-3 border-0 border-bottom pb-4 position-relative" style="width: 20rem;">
+                      <div class="row g-0">
+                        <div class="col-md-3">
+                          <img src="../img/product-2 (1).jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body py-0">
+                            <p class="card-text"><small>Eleven Paris Skinny Jeans</small></p>
+                            <p class="card-text">1 X $79.00</p>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#seconditem" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="alert" style="font-size: 10px; "></a>
+                    </div>
+                  </a></li>
+                  <li>
+                    <span>Cart Total</span>
+                    <span class="float-right">$79.00</span>
+                  </li>
+                  <li>
+                    <div class="text-center1 mt-3">
+                      <a href="" class="btn btn-dark btn-mobile rounded-0">VIEW CART</a>
+                      <a href="" class="btn btn-dark btn-mobile rounded-0">CHECK OUT</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+
+            </div>
+          </div>
+        </nav>   
+  </header>
+
+    <header class="header1">
+      <div class="container">
+          <nav aria-label="breadcrumb">
+              <ol class="breadcrumb py-4">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+              </ol>
+            </nav>
+        </div>
+     </header>
+    <!-- header end -->
+
+    <!-- section 1 -->
+    <section class="section1">
+      <div class="container-fluid">
+        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.2153347990516!2d72.84999691482435!3d19.229444887000085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0d42c95bdf9%3A0x5a3374a957943f4b!2sTryCatch%20Classes%20%7C%20Full%20Stack%20Web%20Development%20%7C%20Data%20Science%20Python%20%7C%20Software%20Testing%20%7C%20Android%20IOS%20Flutter!5e0!3m2!1sen!2sin!4v1676816779031!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+      <div class="row">
+        <h2 >Contact Us</h2>
+        <div class="col-12 col-md-7">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control py-3" id="validationDefault01" placeholder="First Name" required>
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control py-3" id="validationDefault02" placeholder="Last Name" required>
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="form-control py-3" id="validationDefaultUsername" placeholder="Subject" required>
+              </div>
+              <div class="col-md-12">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-danger rounded-pill px-5 py-3" type="submit">SUBMIT NOW</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="rightbox">
+              <ul>
+                <li class="d-flex"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <div class="box1">
+                    <h5>Our Location</h5>
+                  <p>211 Michael Extension, Lake Christopher, UD03 5WX</p>
+                  </div>
+                </li>
+                <li class="d-flex"><i class="fa fa-mobile" aria-hidden="true"></i>
+                <div class="box1">
+                  <h5>Call Us Now</h5>
+                <p>(+18) 0117 022 7728</p>
+                <p>(+18) 0117 022 7729</p>
+                </div>
+                </li>
+                <li class="d-flex li1"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <div class="box1">
+                    <h5>Write Us Now</h5>
+                  <p>customer.service@example.com</p>
+                  <p>info@example.com</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>         
+        </div>
+      </div>    
+    </section>
+    <!-- section 1 end -->
+
+                <!-- footer -->
+                <footer>
+                  <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5">
+                      <div class="col">
+                        <div class="foot1" style="width: 250px;">
+                          <h4 class="py-3">Contact</h4>
+                          <p class="py-2">20464 Hirthe Curve Suite, Emardton, 
+                            CT 12471-4107</p>
+                          <p class="py-1">+5(305) 785-0437</p>
+                          <p class="py-1">info@example.com</p>
+                          <div class="icons">
+                            <i class="fa fa-facebook rounded-circle" style="padding: 10px 14px; margin: 0px 5px;" aria-hidden="true"></i>
+                            <i class="fa fa-twitter rounded-circle" style="padding: 10px 10px; margin: 0px 5px;" aria-hidden="true"></i>
+                            <i class="fa fa-vimeo rounded-circle" style="padding: 10px 10px; margin: 0px 5px;" aria-hidden="true"></i>
+                            <i class="fa fa-google-plus rounded-circle" style="padding: 10px 9px; margin: 0px 5px;" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="foot2">
+                          <h4 class="py-3">Category</h4>
+                          <p>Men</p>
+                          <p>Women</p>
+                          <p>Kids</p>
+                          <p>Accessories</p>
+                          <p>Shoe</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="foot3">
+                          <h4 class="py-3">Useful Link</h4>
+                          <p>News And Tips</p>
+                          <p>About Us</p>
+                          <p>Support</p>
+                          <p>Our Shop</p>
+                          <p>Contact Us</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="foot4">
+                          <h4 class="py-3">Our Policies</h4>
+                          <p>Privacy Policy</p>
+                          <p>Terms & Conditions</p>
+                          <p>Cookie Policy</p>
+                          <p>Terms of Sale </p>
+                          <p>Free Shipping & Returns</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+                <div class="footersection" style="background-color: #343a40; padding: 20px 0px;">
+                  <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3 mx-5">
+                      <div class="col px-5">
+                        <div class="footer1 text-light">
+                          <p>Logo © 2018 all right reserved</p>
+                        </div>
+                      </div>
+                      <div class="col px-5">
+                        <div class="footer1">
+                          <img src="../img/logo-alt.png" alt="logo">
+                        </div>
+                      </div>
+                      <div class="col px-5">
+                        <div class="footer1">
+                          <img src="../img/card-1.jpg" alt="">
+                          <img src="../img/card-2.jpg" alt="">
+                          <img src="../img/card-3.jpg" alt="">
+                          <img src="../img/card-4.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- footer end -->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELiTE SHOP</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+      /* header section */
+        .topright li{
+            margin: 0px 15px;
+        }
+        .topnav{
+          padding-left: 20px;
+        }
+        .dropdown-menu{
+            min-width: 0;
+            background-color: black;
+            padding: 0px 10px;
+        }
+        .dropdown-item {
+            color:rgb(216, 211, 211);
+            padding: 10px;
+        }
+        .dropdown-item:hover{
+          color: white;
+          background-color: transparent;
+        }
+        .navbar{
+          position: relative !important; 
+        }
+        .main{
+          width: 1050%;
+          position: absolute;
+          top: 55px !important;
+          left: -760px !important;
+          overflow: hidden;
+        
+        }
+        .pri{
+          position: relative;
+        }
+        .pri button{
+          border-radius: 50px;
+          background-color: rgb(207, 205, 205);
+        }
+        .pri1{
+          position: absolute;
+          top: 50px !important;
+          left: -1305px !important;
+          z-index: 1;
+        }
+        .pri3{
+          width: 630% !important;
+          background-color: black;
+        }
+        .pri3 input{
+          width: 100% !important;
+          background-color: black;
+        }
+        .drop1{
+          background-color: rgb(207, 205, 205);
+          box-shadow: none !important;
+          width: 100px;
+        }
+        .drop1{
+          position: relative;
+        }
+        .drop1 .dropdown-menu{
+            min-width: 0;
+            background-color: white;
+            position: absolute;
+            top: 45px !important;
+            left: -300px !important;
+            padding: 30px;
+        }
+        .drop1 .dropdown-item {
+          color: black;
+          padding: 0px;
+        }
+        .float-right{
+          float: right !important;
+        }
+        .drop1 .text-center1 a{
+          padding: 15px 30px;
+          font-size: 12px;
+          border: none;
+        }
+        .drop1 .text-center1 a:hover{
+          background-color: rgb(214, 11, 11);
+        }
+       /* header end */
+        
+        
+        /* section1 */
+        .carousel-control-next-icon{
+          background-image: url(../img/arrow_forward_FILL0_wght400_GRAD0_opsz48.png);
+        }
+        .carousel-control-prev-icon{
+          background-image: url(../img/arrow_back_FILL0_wght400_GRAD0_opsz48.png);        
+        }
+      
+        .section1 .page1{
+
+          background-image: url(../img/deal.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 80vh;
+          padding: 100px 0px;
+        }
+        .page1 .row{
+          margin: 0px 100px;
+        }
+        .bag img{
+          margin-left: 100px;
+        }
+        .shoe img{
+          margin-left: 0px;
+        }
+         .section1 .page2{
+
+          background-image: url(../img/deal.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 80vh;
+          padding: 100px 0px;
+        }
+        .page2 .row{
+          margin: 0px 100px;
+        }
+        /* section 1 end */
+         
+        /* section 2 */
+        .section2 .row{
+          margin: 70px 100px;
+        }
+        .zoom{
+          overflow: hidden;
+        }
+        .zoom ul .zoom1{
+          overflow: hidden;
+        }
+          .zoom img{
+            transition: all 0.3s;
+          }
+           .zoom img:hover{
+            transform: scale(1.1);
+            overflow: hidden;
+          }
+          .view button{
+            border: 1px solid grey;
+            color: grey;
+          }
+          .view button:hover{
+            border: 1px solid red;
+            color: red;
+          }
+          /* section 2 end */
+
+          /* section 3  */
+          .seasonend{
+            background: linear-gradient(rgba(11, 11, 11, 0.323),rgba(0, 0, 0, 0.586)),url(../img/cta.jpg);
+            background-attachment: fixed;
+            padding: 90px 0px;
+          }
+          .seasonend button{
+            background-color: white;
+            color:#3f434e;
+          }
+          .seasonend button:hover{
+            background-color: red;
+            color: white;
+          }
+          /* section 3 end */
+
+          /* section 4 */
+          .section4{
+            margin: 0px 100px;
+          }
+          .section4 .inner1{
+            margin: 0px 100px;
+          }
+          .innerproduct{
+            opacity: 0;
+            transition: all 0.5s;
+          }
+          .product1:hover .innerproduct{
+            opacity: 1;
+          }
+          .product1 .pro1{
+            width: 100% !important;
+          }
+          .innerproduct .bottombox{
+             width:100%;
+             padding: 30px 0px;
+            background:linear-gradient(rgba(255, 255, 255, 0.285),rgba(255, 255, 255, 0.236));
+            opacity: 0;
+            transition: all 0.5s  !important;
+          }
+          .innerproduct .bottombox a button{
+            font-size: 10px;
+            margin:0px 70px;
+          }
+          .innerproduct:hover .bottombox{
+            transform: translateY(-80px);
+            opacity: 1;
+          }
+          .innerproduct .bottombox a button{
+            font-size: 10px;
+            margin:0px 70px;
+            background-color: red;
+            color: white;
+            border: none;
+          }
+          .carousel-indicators [data-bs-target]{
+            background-color: black;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+          }
+          .carousel-indicators{
+            bottom: -62px;
+          }
+          .product1 .lefticon ul li{
+            list-style-type: none;
+            margin-top: 10px;
+            margin-right: 10px;
+          }
+
+          /* section 4 end */
+          
+          /* section 5 */
+          .section5 .container{
+            margin: 0px 140px;
+          }
+          .section5{
+            background-image: url(../img/deal.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+          .section5 .row h1{
+            font-size: 50px;
+          }
+          /* section 5 end */
+          
+          /* section 6  */
+          .item{
+            position: relative;
+            overflow: hidden;
+          }
+         .section6 .item .item1{
+          width: 257px !important;
+          height: 257px !important;
+          position: absolute;
+          top: 0;
+          background-color: rgba(0, 0, 0, 0.482);
+          opacity: 0;
+         }
+         
+         .item1 a{
+          text-decoration: none;
+          color: white;
+         }
+         .item:hover .item1{
+          opacity: 1;
+         }
+         .item1 a:hover{
+          color: red;
+         }
+         /* section 6 end */
+          /* section 8 */
+          .section8{
+            background-color: #f2f3f5;
+            padding: 100px 0px;
+          }
+          form{
+            padding: 0px 100px;
+          }
+          .section8 input{
+            margin: 0px 186px;
+          }
+          .section8 button{
+            margin-left:170px;
+          }
+        /* footer section */
+        .icons i{
+          background-color: black;
+          color: white;
+        }
+        footer .row .foot1 .icons i:hover{
+          background-color: red;
+          color: white;
+        }
+        footer .row{
+          margin: 50px 100px;
+        }
+        .footersection .row{
+          margin: 0px 70px;
+        }
+        /* footer end */
+
+        /* modal */
+
+        .modal .modin .modbtn{
+          width: 100%;
+          padding: 15px;
+          border-radius: 50px;
+          background-color: red;
+          margin-top: 10px;
+          color: white;
+        }
+        .modicon i{
+          margin: 10px 20px;
+        }
+        .modicon{
+          margin-top: 20px;
+          font-size: 20px;
+        }
+        .modicon i:hover{
+          color: red;
+        }
+        .modal-header{
+          border-bottom: none;
+        }
+
+         
+        @media screen and (min-width:0px) and (max-width:425px) {
+          .main{
+            width: 80%;
+          }
+          .pri1{
+          position: absolute;
+          top: 50px !important;
+          left: 5px !important;
+          z-index: 1;
+        }
+        .pri3{
+          width: 100% !important;
+          background-color: black;
+        }
+        .pri{
+          position: relative;
+        }
+        .drop1{
+          position: relative;
+        }
+        .drop1 .dropdown-menu{
+            min-width: 0;
+            background-color: white;
+            position: absolute;
+            top: 45px !important;
+            left: -64px !important;
+            padding: 0px  ;
+        }
+        .drop1 .dropdown-item {
+          padding: 0px;
+        }
+       
+        .float-right{
+          float: none !important;
+        }
+          .section1 .page1{
+            height: 140vh;
+          }
+          .page1 .row{
+            margin: 0px 50px;
+          }
+          .section1 .page2{
+            height: 140vh;
+          }
+          .shoe img{
+            margin-left: 0px;
+          }
+          .bag img{
+            margin-left: 0px;
+          }
+          .section2 .row{
+            margin: 0px 0px;
+          }
+          .zoom{
+            margin-top: 20px;
+            /* width: 320px; */
+          }
+          .section4{
+            margin: 0px 0px;
+          }
+          .section4 .inner1{
+            margin: 0px 0px;
+          }
+          .section5 .container{
+            margin: 0px 0px;
+          }
+          .section5 .row h1{
+            font-size: 39px;
+          }
+          .section5 .row img{
+            margin-top: 20px;
+          }
+
+          .section8 input{
+            margin: 10px;
+          }
+          .section6 .row{
+            margin: 0px 10px;
+          }
+          .section6 .item{
+            margin-top: 20px;
+          }
+          .section6 .item1{
+            overflow: hidden;
+          }
+          .section8 button{
+            margin-left:10px;
+            text-align: center;
+
+          }
+          form{
+            padding: 0px;
+          }
+          footer .row{
+            margin: 0px 50px;
+          }
+          .footersection .row{
+          margin: 0px 30px;
+        }
+        .footersection .row img,p{
+          margin-top: 20px;
+        }
+
+        }
+
+        @media screen and (min-width:425px) and (max-width:768px) {
+          .main{
+            width: 70%;
+          } 
+          .pri1{
+          position: absolute;
+          top: 50px !important;
+          left: 5px !important;
+          z-index: 1;
+        }
+        .pri3{
+          width: 100% !important;
+          background-color: black;
+        }
+        .pri{
+          position: relative;
+        }  
+        .drop1{
+          position: relative;
+        }
+        .drop1 .dropdown-menu{
+            min-width: 0;
+            background-color: white;
+            position: absolute;
+            top: 45px !important;
+            left: -40px !important;
+            padding: 20px  ;
+        }
+        .drop1 .dropdown-item {
+          padding: 0px;
+        }
+        .float-right{
+          float: none !important;
+        }     
+          .section1 .page1{
+            height: 100vh;
+            padding: 0px 0px;
+          }
+          .page1 .row{
+            margin: 0px;
+          }
+          .page2 .row{
+            margin: 0px;
+          }
+          .section1 .page2{
+            height: 100vh;
+            padding: 0px 0px;
+          }
+          .bag img{
+            margin-left: 0px;
+          }
+          .section2 .row{
+            margin: 50px 0px;
+          }
+          .zoom{
+            margin-top: 20px;
+          }
+          .section4 .inner1{
+            margin: 0px 0px;
+          }
+          .section4 .product1 ul{
+            padding-left: 0px;
+          }
+          .section4{
+            margin: 0px 0px;
+          }
+          .section5 .container{
+            margin: 0px 100px;
+          }
+          .section6 .row{
+            margin: 0px 90px;
+          }
+          .section6 .item{
+            margin-top: 20px;
+          }
+          .section8 input{
+            margin: 10px;
+          }
+          .section8 button{
+            margin-left:10px;
+            margin-top: 10px;
+          }
+          form{
+            padding: 0px;
+          }
+          footer .row{
+            margin: 50px 0px;
+          } 
+          footer .foot{
+            margin-right: 10px;
+          }        
+          .footersection .row{
+          margin: 0px 0px;
+        }
+        .footersection .row img,p{
+          margin-top: 20px;
+        }
+        }
+    </style>
+</head>
+<body>
+  <!-- header -->
+    <header>
+        <div class="topnav d-flex justify-content-between align-items-center bg-dark text-light"> 
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 w-100">
+           <div class="col">
+            <div class="topleft" style="margin-top: 6px;">
+              <p>Free shipping • Free 30 days return • Express delivery</p>
+          </div>
+           </div>
+           <div class="col">
+            <div class="topright d-flex px-3 justify-content-end" style="list-style-type: none; margin: 8px 0px;">
+              <img src="../img/flag.jpg" alt="" class="px-3" style="border-right: 1px solid grey">
+              <li style="border-right: 1px solid grey; padding:0px 15px;">MyAccounts</li>
+              <li class="nav-item dropdown"><a class=" dropdown-toggle text-decoration-none text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  USD
+                  </a>
+                  <ul class="dropdown-menu menu1" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">USD</a></li>
+                      <li><a class="dropdown-item" href="#">JPN</a></li>
+                      <li><a class="dropdown-item" href="#">BAN</a></li>
+                  </ul>
+              </li>                
+          </div>
+      
+           </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid" style="margin:0px 50px;">
+                <img src="../img/logo.png"  alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item px-2">
+                    <a class="nav-link text-dark" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item  dropdown px-2">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SHOP
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Shop</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Shop List</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="product.html">Product Single</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Cart</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Shipping Method</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Payment Method</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Review</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Confirmation</a></li>
+                      <li><a class="dropdown-item" href="#">Track Order</a></li>                        
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown px-2">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-      expanded="false">
+                      PAGES
+                    </a>
+                    <ul class="dropdown-menu menu-2 W-100" aria-labelledby="navbarDropdown">
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="Contactus.html">Contact Us</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Login</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Cart</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Signup</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Payment Method</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Forget Password</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Dashboard</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">404 Page</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="#">Coming Soon</a></li>
+                      <li class="border-bottom border-secondary"><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                      <li><a class="dropdown-item" href="#">Blog Single</a></li>                        
+                    </ul>
+                  </li>                 
+                  <li class="nav-item dropdown px-2 main-menu">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-      expanded="false">
+                      MEGA MENU
+                    </a>
+                    <ul class="dropdown-menu main menu-2" aria-labelledby="navbarDropdown">
+                      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-5">
+                        <div class="col">
+                          <div class="card bg-transparent text-light" style="width: 18rem;">
+                            <div class="card-header">
+                              Men
+                            </div>
+                            <ul class="list-group list-group-flush py-3">
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Jackets & Coats</li>
+                              <li class="list-group-item  dropdown-item bg-transparent border-bottom border-secondary">Jeans</li>
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Top & T-shirts</li>
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Dresses</li>
+                              <li class="list-group-item dropdown-item bg-transparent">Mens shirts</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card card1 bg-transparent text-light" style="width: 18rem;">
+                            <div class="card-header">
+                              Women
+                            </div>
+                            <ul class="list-group list-group-flush py-3">
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Blouses & Shirts</li>
+                              <li class="list-group-item  dropdown-item bg-transparent border-bottom border-secondary">Dresses</li>
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Top & T-shirts</li>
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Jeans & Trousers</li>
+                              <li class="list-group-item dropdown-item bg-transparent">Jackets & Coats</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card card2 bg-transparent text-light" style="width: 18rem;">
+                            <div class="card-header">
+                              Shoes & Bags
+                            </div>
+                            <ul class="list-group list-group-flush py-3">
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Backpacks</li>
+                              <li class="list-group-item  dropdown-item bg-transparent border-bottom border-secondary">Bum Bags</li>
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Accross Bags</li>
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Shoes</li>
+                              <li class="list-group-item dropdown-item bg-transparent">Heeled Shoes</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card card2 bg-transparent text-light" style="width: 18rem;">
+                            <div class="card-header">
+                              Shoes & Bags
+                            </div>
+                            <ul class="list-group list-group-flush py-3">
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Backpacks</li>
+                              <li class="list-group-item  dropdown-item bg-transparent border-bottom border-secondary">Bum Bags</li>
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Accross Bags</li>
+                              <li class="list-group-item dropdown-item bg-transparent border-bottom border-secondary">Shoes</li>
+                              <li class="list-group-item dropdown-item bg-transparent">Heeled Shoes</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <img src="../img/mega-megu.jpg" class="img-fluid pt-5" alt="">
+                        </div>
+                        
+                      </div>
+                    </ul>
+                  </li>                   
+                  <li class="nav-item px-2">
+                    <a class="nav-link text-dark" aria-current="page" href="Contactus.html">CONTACT US</a>
+                  </li>
+                </ul>              
+                <div class="pri">
+                  <button class="btn me-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                  <div class="collapse pri1" id="collapseExample">
+                    <div class="card card-body pri3">
+                      <input type="email" class="form-control border-0" id="exampleFormControlInput1" placeholder="Enter Keywords...">
+                    </div>
+                  </div>
+                </div>
+
+                    <div class="dropdown drop1">
+                  <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i> CART 3
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <a href="dropdown-menu" class="btn-close position-absolute top-0 end-0 bg-danger me-2 mt-2 p-1" data-bs-dismiss="alert" style="font-size: 10px; "></a>
+                    <li><h5>Your Cart</h5></li>
+                    <li id="firstitem"><a class="dropdown-item" href="#">
+                      <div class="card mb-3 border-0 border-bottom pb-4 position-relative" style="width: 20rem;">
+                        <div class="row g-0">
+                          <div class="col-md-3">
+                            <img src="../img/product-1 (1).jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-9">
+                            <div class="card-body py-0">
+                              <p class="card-text"><small>Eleven Paris Skinny Jeans</small></p>
+                              <p class="card-text">1 X $79.00</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="#firstitem" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="alert" style="font-size: 10px; "></a>
+                      </div>
+                    </a></li>
+                    <li id="seconditem"><a class="dropdown-item" href="#">
+                      <div class="card mb-3 border-0 border-bottom pb-4 position-relative" style="width: 20rem;">
+                        <div class="row g-0">
+                          <div class="col-md-3">
+                            <img src="../img/product-2 (1).jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-9">
+                            <div class="card-body py-0">
+                              <p class="card-text"><small>Eleven Paris Skinny Jeans</small></p>
+                              <p class="card-text">1 X $79.00</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="#seconditem" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="alert" style="font-size: 10px; "></a>
+                      </div>
+                    </a></li>
+                    <li>
+                      <span>Cart Total</span>
+                      <span class="float-right">$79.00</span>
+                    </li>
+                    <li>
+                      <div class="text-center1 mt-3">
+                        <a href="" class="btn btn-dark btn-mobile rounded-0">VIEW CART</a>
+                        <a href="" class="btn btn-dark btn-mobile rounded-0">CHECK OUT</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+ 
+
+              </div>
+            </div>
+          </nav>   
+    </header>
+    <!-- header end -->
+
+    <!-- section1  -->
+    <section class="section1">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel ">
+                  <div class="carousel-inner">
+                    <div class=" page1 carousel-item active">
+                      <div class="container">
+                        <div class="row g-0" style="color: #3f434e;">
+                          <div class="col-md-6 order-2 order-sm-1 order-md-2">
+                            <div class="card-body mt-5">
+                              <h5 class="card-title">For Women's</h5>
+                              <h1 class="card-title">High Quality Bag</h1>
+                              <h5 class="card-title">For Only $37.0</h5>
+                              <p class="card-text py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,ex autem optio quisquam reiciendis eaque soluta rem molestiae.</p>
+                              <button type="button" class="btn btn-danger rounded-pill" style="padding: 13px 30px; font-size: 20px;">Shop Now</button>
+                            </div>
+                          </div>
+                          <div class="col-md-6 order-1 order-sm-2">
+                            <div class="bag">
+                              <img src="../img/bag.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                          </div>
+                        </div>                    
+                    </div>
+                    </div>
+                  
+                  <div class="page2 carousel-item ">
+                    <div class="container">
+                      <div class="row g-0 mx-5" style="color: #3f434e;">
+                        <div class="col-md-6 order-2 order-sm-1 order-md-1">
+                          <div class="card-body mt-5">
+                            <h5 class="card-title">For Men's</h5>
+                            <h1 class="card-title">High Quality Converse</h1>
+                            <h5 class="card-title">For Only $59.0</h5>
+                            <p class="card-text py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,ex autem optio quisquam reiciendis eaque soluta rem molestiae.</p>
+                            <button type="button" class="btn btn-danger rounded-pill" style="padding: 13px 30px; font-size: 20px;">Shop Now</button>
+                          </div>
+                        </div>
+                        <div class="col-md-6 order-1 order-sm-2 ">
+                          <div class="shoe">
+                            <img src="../img/converse.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                        </div>
+                      </div>                    
+                  </div>
+                </div>
+                  
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+          </section>
+<!-- section1 end -->
+
+<!-- section 2 -->
+        <section class="section2">
+          <div class="container">
+              <div class="">
+                <h2 class="text-center mt-5">Top Categories</h2>
+              </div>
+              <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+              <div class="col">
+                <div class="card zoom" >
+                  <div class="text-center border-bottom zoom">
+                    <a href="">
+                      <img src="../img/product-big-1.jpg" alt="" class="img-fluid">
+                    </a>
+                  </div>                 
+                    <ul class="d-flex m-0 p-0 justify-content-center" style="list-style-type: none;">
+                      <li class=" text-center zoom1"><a href="">
+                        <img src="../img/product-sm-1.jpg" alt="" class="img-fluids">
+                      </a></li>
+                      <li class="text-center border-start border-end zoom1"><a href="">
+                        <img src="../img/product-sm-2.jpg" alt="" class="img-fluid">
+                      </a></li>
+                      <li class=" text-center zoom1"><a href="">
+                        <img src="../img/product-sm-3.jpg" alt="" class="img-fluid">
+                      </a></li>
+                    </ul>  
+                    <div class="view d-flex justify-content-between border-top px-3 py-3">
+                      <h4>Clothing</h4>
+                      <a href="">
+                        <button type="button" class="btn  rounded-pill  btn-sm px-4">VIEW MORE</button>
+                      </a>
+                    </div>                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card zoom">
+                  <div class="text-center border-bottom zoom">
+                    <a href="">
+                      <img src="../img/product-big-2.jpg" alt="" class="img-fluid">
+                    </a>
+                  </div>                 
+                    <ul class="d-flex m-0 p-0 justify-content-center" style="list-style-type: none;">
+                      <li class="zoom1"><a href="">
+                        <img src="../img/product-sm-4.jpg" alt="" class="img-fluids">
+                      </a></li>
+                      <li class="zoom1 text-center border-start border-end"><a href="">
+                        <img src="../img/product-sm-5.jpg" alt="" class="img-fluid">
+                      </a></li>
+                      <li class="zoom1"><a href="">
+                        <img src="../img/product-sm-6.jpg" alt="" class="img-fluid">
+                      </a></li>
+                    </ul>  
+                    <div class="view d-flex justify-content-between border-top px-4 py-3">
+                      <h4>Shoes</h4>
+                      <a href="">
+                        <button type="button" class="btn rounded-pill btn-sm px-4">VIEW MORE</button>
+                      </a>
+                    </div>                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card zoom">
+                  <div class="text-center border-bottom zoom">
+                    <a href="">
+                      <img src="../img/product-big-3.jpg" alt="" class="img-fluid">
+                    </a>
+                  </div>                 
+                    <ul class="d-flex m-0 p-0 justify-content-center" style="list-style-type: none;">
+                      <li class="zoom1"><a href="">
+                        <img src="../img/product-sm-7.jpg" alt="" class="img-fluids">
+                      </a></li>
+                      <li class="zoom1 text-center border-start border-end"><a href="">
+                        <img src="../img/product-sm-8.jpg" alt="" class="img-fluid">
+                      </a></li>
+                      <li class="zoom1"><a href="">
+                        <img src="../img/product-sm-9.jpg" alt="" class="img-fluid">
+                      </a></li>
+                    </ul>  
+                    <div class="view d-flex justify-content-between border-top px-3 py-3">
+                      <h4>Accessories</h4>
+                      <a href="">
+                        <button type="button" class="btn  rounded-pill  btn-sm px-4">VIEW MORE</button>
+                      </a>
+                    </div>                
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- section2 end -->
+
+        <!-- section 3 -->
+        <section>
+           <div class="seasonend text-center text-light">
+            <div class="container">
+            <h1>End of Season Sale</h1>
+            <p>Take 25% off all sweaters and knits. Discount applied at checkout.</p>
+            <button type="button" class="btn  rounded-pill  btn-sm px-5 py-3" style="font-size: 17px;">SHOP NOW</button>
+          </div>
+       </div>
+        </section>
+        <!-- section 3 end -->
+
+        <!-- section 4 start -->
+        <section class="section4">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-1" style="padding: 100px 0px;">
+              <div class="col">
+                <h2 class="text-center py-5">Top Collections</h2>
+              </div>
+              <div class="col">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 inner1">
+                        <div class="col">
+                          <div class="product1 text-center position-relative">
+                            <img src="../img/product-1.jpg" alt="" class="pro1 img-fluid">
+                            <p style="padding-top: 10px;"> Leather bagpack</p>
+                            <span>$320.79</span>
+                              <div class="innerproduct position-absolute top-0 w-100">
+                                <img src="../img/product-4.jpg" alt="" class="pro1 img-fluid">                             
+                                 <div class="bottombox">
+                                  <a href=""><button type="button" class="btn">ADD TO CART</button></a>
+                                 </div>
+                                 <div class="lefticon position-absolute top-0 end-0">                     
+                                  <ul>
+                                    <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-search"></i></a></li>
+                                  </ul>
+                               </div>
+                                 
+                                </div>                       
+                              </div>
+                          </div>
+                          <div class="col">
+                            <div class="product1 text-center position-relative">
+                              <img src="../img/product-2.jpg" alt="" class="pro1 img-fluid">
+                              <p style="padding-top: 10px;">Box shoulder leather bag</p>
+                              <span>$520.79</span>
+                                <div class="innerproduct position-absolute top-0 w-100">
+                                  <img src="../img/product-5.jpg" alt="" class="pro1 img-fluid">                                  
+                                   <div class="bottombox">
+                                    <a href=""><button type="button" class="btn">ADD TO CART</button></a>
+                                   </div>
+                                   <div class="lefticon position-absolute top-0 end-0">                     
+                                    <ul>
+                                      <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                      <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                      <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-search"></i></a></li>
+                                    </ul>
+                                 </div>
+                                  </div>                       
+                                </div>
+                            </div>
+                            <div class="col">
+                              <div class="product1 text-center position-relative">
+                                <img src="../img/product-7.jpg" alt="" class="pro1 img-fluid">
+                                <p style="padding-top: 10px;">Sneaky Leather Sneakers</p>
+                                <span>$270.79</span>
+                                  <div class="innerproduct position-absolute top-0 w-100">
+                                    <img src="../img/product-3.jpg" alt="" class="pro1 img-fluid">
+                                     <div class="bottombox">
+                                      <a href=""><button type="button" class="btn">ADD TO CART</button></a>
+                                     </div>
+                                     <div class="lefticon position-absolute top-0 end-0">                     
+                                      <ul>
+                                        <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                        <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                        <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-search"></i></a></li>
+
+                                      </ul>
+                                   </div>
+                                    </div>                       
+                                  </div>
+                              </div>
+                              <div class="col">
+                                <div class="product1 text-center position-relative">
+                                  <img src="../img/product-4.jpg" alt="" class="pro1 img-fluid">
+                                  <p style="padding-top: 10px;">Puzzle leather shoulder bag</p>
+                                  <span>$400.79</span>
+                                    <div class="innerproduct position-absolute top-0 w-100">
+                                      <img src="../img/product-2.jpg" alt="" class="pro1 img-fluid">
+                                       <div class="bottombox">
+                                        <a href=""><button type="button" class="btn">ADD TO CART</button></a>
+                                       </div>
+                                       <div class="lefticon position-absolute top-0 end-0">                     
+                                        <ul>
+                                          <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                          <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                          <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-search"></i></a></li>
+
+                                        </ul>
+
+
+                                     </div>  
+                                      </div> 
+                                                        
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          <div class="carousel-item">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 inner1">
+                              <div class="col">
+                                <div class="product1 text-center position-relative">
+                                  <img src="../img/product-5.jpg" alt="" class="pro1 img-fluid">
+                                  <p style="padding-top: 10px;">Puzzle leather shoulder bag</p>
+                                  <span>$400.79</span>
+                                    <div class="innerproduct position-absolute top-0 w-100">
+                                      <img src="../img/product-3.jpg" alt="" class="pro1 img-fluid">                                      
+                                       <div class="bottombox">
+                                        <a href=""><button type="button" class="btn">ADD TO CART</button></a>
+                                       </div>
+                                       <div class="lefticon position-absolute top-0 end-0">                     
+                                        <ul>
+                                          <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                          <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                          <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-search"></i></a></li>
+
+                                        </ul>
+                                     </div>
+                                      </div>                       
+                                    </div>
+                                </div>
+                                <div class="col">
+                                  <div class="product1 text-center position-relative">
+                                    <img src="../img/product-6.jpg" alt="" class="pro1 img-fluid">
+                                    <p style="padding-top: 10px;">Puzzle leather shoulder bag</p>
+                                    <span>$400.79</span>
+                                      <div class="innerproduct position-absolute top-0 w-100">
+                                        <img src="../img/product-1.jpg" alt="" class="pro1 img-fluid">
+                                        
+                                         <div class="bottombox">
+                                          <a href=""><button type="button" class="btn">ADD TO CART</button></a>
+                                         </div>
+                                         <div class="lefticon position-absolute top-0 end-0">                     
+                                          <ul>
+                                            <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-search"></i></a></li>
+
+                                          </ul>
+                                       </div>
+                                        </div>                       
+                                      </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="product1 text-center position-relative">
+                                      <img src="../img/product-7.jpg" alt="" class="pro1 img-fluid">
+                                      <p style="padding-top: 10px;">Puzzle leather shoulder bag</p>
+                                      <span>$400.79</span>
+                                        <div class="innerproduct position-absolute top-0 w-100">
+                                          <img src="../img/product-3.jpg" alt="" class="pro1 img-fluid">
+                                           <div class="bottombox">
+                                            <a href=""><button type="button" class="btn">ADD TO CART</button></a>
+                                           </div>
+                                           <div class="lefticon position-absolute top-0 end-0">                     
+                                            <ul>
+                                              <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                              <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                              <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-search"></i></a></li>
+
+                                            </ul>
+                                         </div>
+                                          </div>                       
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="product1 text-center position-relative">
+                                        <img src="../img/product-8.jpg" alt="" class="pro1 img-fluid">
+                                        <p style="padding-top: 10px;">Puzzle leather shoulder bag</p>
+                                        <span>$400.79</span>
+                                          <div class="innerproduct position-absolute top-0 w-100">
+                                            <img src="../img/product-5.jpg" alt="" class="pro1 img-fluid">
+                                             <div class="bottombox">
+                                              <a href=""><button type="button" class="btn">ADD TO CART</button></a>
+                                             </div>
+                                             <div class="lefticon position-absolute top-0 end-0">                     
+                                              <ul>
+                                                <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                                                <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                                <li><a href="#" class="btn btn-light bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="left" data-bs-content="Wishlist"><i class="fa fa-search"></i></a></li>
+
+                                              </ul>
+                                           </div>
+                                            </div>                       
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>                    
+                              </div>
+               
+                </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                </section>
+                <!-- section 4 end -->
+
+                <!-- section 5 start -->
+                <section class="section5" style="padding: 100px 0px;">
+                  <div class="container">
+                      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-0 mx-5" style="color: #3f434e;">
+                        <div class="col">
+                          <div class="card-body">
+                            <h1 class="card-title">Deal of the day</h1>
+                            <p class="card-text py-3" style="font-size: 20px;">Get at discounted price!</p>
+                            <p class="card-text" style="font-size: 20px;">The countdown is finished!</p>
+                            <button type="button" class="btn btn-danger rounded-pill mt-3" style="padding: 13px 30px; font-size: 20px;">Shop Now</button>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <img src="../img/product (1).png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                      </div>                    
+                  </div>
+                </section>
+                <!-- section 5 end -->
+
+                <!-- section 6 start -->
+                <section class="section6" style="padding: 100px 0px;">
+                  <div class="container-fluid">
+                    <div class="text-center mb-5">
+                      <h1>Follow Us On Instagram</h1>
+                      <p>@ Occaecat Cupidatat</p>
+                    </div>
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6">
+                    <div class="col">
+                      <div class="item">
+                        <img src="../img/item-1.png" alt="" class="img-fluid">
+                      <div class="item1 d-flex justify-content-center align-items-center">
+                        <a href="" class="px-2"><i class="fa fa-heart-o px-1" aria-hidden="true"></i>40</a>
+                        <a href="" class="px-2"><i class="fa fa-comments-o px-1" aria-hidden="true"></i>24</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item">
+                        <img src="../img/item-2.png" alt="" class="img-fluid">
+                        <div class="item1 d-flex justify-content-center align-items-center">
+                          <a href="" class="px-2"><i class="fa fa-heart-o px-1" aria-hidden="true"></i>65</a>
+                          <a href="" class="px-2"><i class="fa fa-comments-o px-1" aria-hidden="true"></i>11</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item">
+                        <img src="../img/item-3.png" alt="" class="img-fluid">
+                        <div class="item1 d-flex justify-content-center align-items-center">
+                          <a href="" class="px-2"><i class="fa fa-heart-o px-1" aria-hidden="true"></i>33</a>
+                          <a href="" class="px-2"><i class="fa fa-comments-o px-1" aria-hidden="true"></i>78</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item">
+                        <img src="../img/item-4.png" alt="" class="img-fluid">
+                        <div class="item1 d-flex justify-content-center align-items-center">
+                          <a href="" class="px-2"><i class="fa fa-heart-o px-1" aria-hidden="true"></i>32</a>
+                          <a href="" class="px-2"><i class="fa fa-comments-o px-1" aria-hidden="true"></i>77</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item">
+                        <img src="../img/item-5.png" alt="" class="img-fluid">
+                        <div class="item1 d-flex justify-content-center align-items-center">
+                          <a href="" class="px-2"><i class="fa fa-heart-o px-1" aria-hidden="true"></i>80</a>
+                          <a href="" class="px-2"><i class="fa fa-comments-o px-1" aria-hidden="true"></i>38</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item">
+                        <img src="../img/item-6.png" alt="" class="img-fluid">
+                        <div class="item1 d-flex justify-content-center align-items-center">
+                          <a href="" class="px-2"><i class="fa fa-heart-o px-1" aria-hidden="true"></i>22</a>
+                          <a href="" class="px-2"><i class="fa fa-comments-o px-1" aria-hidden="true"></i>57</a>
+                          </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  </div>
+                </section>
+                <!-- section6 end -->
+
+                <!-- section 7 -->
+                <section class="border-top py-5">
+                  <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 mx-5">
+                      <div class="col">
+                        <div class="d-flex flex-row text-secondary">
+                          <i class="fa fa-truck px-4" aria-hidden="true" style="font-size: 60px;"></i>
+                          <div class="">
+                            <h4 class="text-dark">Free Shipping</h4>
+                            <p>Free shipping on oder over $70</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="d-flex flex-row text-secondary">
+                          <i class="fa fa-shield px-4" aria-hidden="true" style="font-size: 60px;"></i>
+                          <div class="">
+                            <h4 class="text-dark">Secure Payment</h4>
+                            <p>We ensure secure payment with PEV</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="d-flex flex-row text-secondary">
+                          <i class="material-icons px-4" style="font-size: 60px;">timer</i>
+                          <div class="">
+                            <h4 class="text-dark">Support 24/7</h4>
+                            <p>Contact us 24 hours a day, 7 days a week</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="d-flex flex-row text-secondary">
+                          <i class="fa fa-refresh px-4" aria-hidden="true" style="font-size: 60px;"></i>
+                          <div class="">
+                            <h4 class="text-dark">30 Days Return</h4>
+                            <p>Simply return it within 30 days for an exchange.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- section 7 end -->
+
+                <!-- section8 -->
+                <section class="section8">
+                  <div class="container">
+                    <div class="text-center">
+                      <h2>Our Newsletter</h2>
+                      <p>Subscribe to our Newsletter to receive early discount offers</p>
+                    </div>
+                    <form action="" class="d-flex mx-5">
+                      
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                      <div class="col">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+                      </div>
+                     <div class="col">
+                      <button type="submit" value="send" class="btn btn-danger rounded-pill px-5 py-2">Subscribe</button>
+                     </div>
+                    </div>                  
+
+                    </form>
+                  </div>
+                </section>
+                <!-- section 8end -->
+
+<!-- footer -->
+        <footer>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col">
+                <div class="foot" >
+                  <h4 class="py-3">Contact</h4>
+                  <p class="py-2">20464 Hirthe Curve Suite, Emardton, 
+                    CT 12471-4107</p>
+                  <p class="py-1">+5(305) 785-0437</p>
+                  <p class="py-1">info@example.com</p>
+                  <div class="icons" style="padding-left: 0px;">
+                    <i class="fa fa-facebook rounded-circle" style="padding: 8px 12px;" aria-hidden="true"></i>
+                    <i class="fa fa-twitter rounded-circle" style="padding: 8px 10px;" aria-hidden="true"></i>
+                    <i class="fa fa-vimeo rounded-circle" style="padding: 8px 8px;" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus rounded-circle" style="padding: 8px 7px;" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="foot">
+                  <h4 class="py-3">Category</h4>
+                  <p>Men</p>
+                  <p>Women</p>
+                  <p>Kids</p>
+                  <p>Accessories</p>
+                  <p>Shoe</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="foot">
+                  <h4 class="py-3">Useful Link</h4>
+                  <p>News And Tips</p>
+                  <p>About Us</p>
+                  <p>Support</p>
+                  <p>Our Shop</p>
+                  <p>Contact Us</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="foot">
+                  <h4 class="py-3">Our Policies</h4>
+                  <p>Privacy Policy</p>
+                  <p>Terms & Conditions</p>
+                  <p>Cookie Policy</p>
+                  <p>Terms of Sale </p>
+                  <p>Free Shipping & Returns</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="footersection" style="background-color: #343a40; padding: 20px 0px;">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
+              <div class="col px-5">
+                <div class="footer1 text-light">
+                  <p>Logo © 2018 all right reserved</p>
+                </div>
+              </div>
+              <div class="col px-5">
+                <div class="footer1">
+                  <img src="../img/logo-alt.png" alt="logo">
+                </div>
+              </div>
+              <div class="col px-5">
+                <div class="footer1">
+                  <img src="../img/card-1.jpg" alt="">
+                  <img src="../img/card-2.jpg" alt="">
+                  <img src="../img/card-3.jpg" alt="">
+                  <img src="../img/card-4.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer end -->
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                  <div class="col">
+                    <img src="../img/modinn.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col">
+                    <div class="modin">
+                      <h2 style="color: #3f434e;">Woven Crop Cami</h2>
+                      <h6>$90.00</h6>
+                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus                      </p>
+                      <select class="form-select px-4 py-3 rounded-pill" aria-label="Default select example">
+                        <option selected>Brown Color</option>
+                        <option value="2">Gray Color</option>
+                        <option value="3">black Color</option>
+                      </select>
+                      <select class="form-select px-4 py-3 rounded-pill mt-3" aria-label="Default select example" >
+                        <option selected>Small Size</option>
+                        <option value="2">Medium Size</option>
+                        <option value="3">Large Size</option>
+                      </select>
+                      <a href=""><button type="button" class="modbtn btn">ADD TO CART</button></a>
+                      <div class="modicon">
+                        <i class="fa fa-facebook"  aria-hidden="true"></i>
+                        <i class="fa fa-twitter"  aria-hidden="true"></i>
+                        <i class="fa fa-vimeo"  aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+               
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
